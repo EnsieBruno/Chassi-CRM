@@ -10,6 +10,7 @@ from sqlalchemy.orm import sessionmaker, Session, relationship
 from passlib.context import CryptContext
 import jwt
 
+
 # Configuracoes e Variaveis de Ambiente
 SECRET_KEY = "sua_chave_secreta_jwt_para_o_mvp"
 ALGORITHM = "HS256"
